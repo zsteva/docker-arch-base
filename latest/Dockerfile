@@ -6,5 +6,5 @@ ADD build-latest.tar /
 WORKDIR /home/dev
 USER dev
 
-ENTRYPOINT "/bin/bash -i"
+ENTRYPOINT /bin/bash -i
 
